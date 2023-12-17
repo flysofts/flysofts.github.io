@@ -1,0 +1,85 @@
+
+.login-bg{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+
+
+.welcome-header{
+    margin: 30px 0px 215px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-header__title{
+    margin-top: 70px;
+    font-size: 32px;
+    color: white;
+}
+
+.welcome-header__text{
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    width: 60%;
+    opacity: 0.7;
+}
+
+
+
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+    
+}
+
+#login-form input{
+    border: none;
+    border-radius: 15px;
+    padding: 15px 10px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    
+}
+
+#login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+
+
+#login-form input::placeholder {
+    color: rgba (0, 0, 0, 0.4);
+}
+
+#login-form input:focus {
+    border-color:  var(--purple);
+}
+
+#login-form input[type="submit"] {
+    background-color: var(--purple);
+    cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 5px;
+    color: grey;
+}
+
+#login-form  a {
+    
+    margin-top: 43px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 221px;
+}
+
+
